@@ -11,7 +11,7 @@ public class Ball {
     }
 
     public int getSpeed() {
-        return speed;
+        return this.speed;
     }
 
     public void setSpeed(int speed) {
@@ -19,7 +19,7 @@ public class Ball {
     }
 
     public int getxPos() {
-        return xPos;
+        return this.xPos;
     }
 
     public void setxPos(int xPos) {
@@ -27,7 +27,7 @@ public class Ball {
     }
 
     public int getyPos() {
-        return yPos;
+        return this.yPos;
     }
 
     public void setyPos(int yPos) {
@@ -35,7 +35,7 @@ public class Ball {
     }
 
     public int getDiameter() {
-        return diameter;
+        return this.diameter;
     }
 
     public void setDiameter(int diameter) {

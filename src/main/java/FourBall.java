@@ -6,7 +6,7 @@ public class FourBall extends PApplet {
     public static final int WIDTH = 640;
     public static final int HEIGHT = 480;
     public static final int INITIAL_X_POS = 0;
-    public static final int DIAMETER = 20;
+    public static final int DIAMETER = 10;
     ArrayList<Ball> Balls=new ArrayList<>();
 
 
@@ -34,13 +34,14 @@ public class FourBall extends PApplet {
 
     public void drawBall(Ball b){
 
-            ellipse(b.getxPos(),b.getyPos(),b.getDiameter(),b.getSpeed());
+            ellipse(b.getxPos(),b.getyPos(),b.getDiameter(),b.getDiameter());
 
 
     }
 
     @Override
     public void draw() {
+
         for(int i=1;i<=4;i++){
             Ball b=Balls.get(i-1);
             drawBall(b);
